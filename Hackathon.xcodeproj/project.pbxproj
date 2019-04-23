@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		3E13E953226E5C1B005F1409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E13E952226E5C1B005F1409 /* AppDelegate.swift */; };
-		3E13E955226E5C1C005F1409 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E13E954226E5C1C005F1409 /* ViewController.swift */; };
+		3E13E955226E5C1C005F1409 /* TeamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E13E954226E5C1C005F1409 /* TeamListViewController.swift */; };
 		3E13E958226E5C1C005F1409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E13E956226E5C1C005F1409 /* Main.storyboard */; };
 		3E13E95A226E5C1C005F1409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E13E959226E5C1C005F1409 /* Assets.xcassets */; };
 		3E13E95D226E5C1C005F1409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E13E95B226E5C1C005F1409 /* LaunchScreen.storyboard */; };
+		3E701120226E5EEE00958130 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E70111F226E5EEE00958130 /* GoogleService-Info.plist */; };
+		3E701122226E66F500958130 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E701121226E66F500958130 /* Team.swift */; };
+		3E701124226E698200958130 /* TeamDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E701123226E698200958130 /* TeamDetailTableViewController.swift */; };
+		3E701126226E746E00958130 /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E701125226E746E00958130 /* Teams.swift */; };
+		517BC75E09CC630B07F5AC16 /* Pods_Hackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFBFD090F19DA8365613EB5 /* Pods_Hackathon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0589F1B30B752E7FBC913AAB /* Pods-Hackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon.release.xcconfig"; sourceTree = "<group>"; };
 		3E13E94F226E5C1B005F1409 /* Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E13E952226E5C1B005F1409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E13E954226E5C1C005F1409 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E13E954226E5C1C005F1409 /* TeamListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListViewController.swift; sourceTree = "<group>"; };
 		3E13E957226E5C1C005F1409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E13E959226E5C1C005F1409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E13E95C226E5C1C005F1409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E13E95E226E5C1C005F1409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E70111F226E5EEE00958130 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3E701121226E66F500958130 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		3E701123226E698200958130 /* TeamDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailTableViewController.swift; sourceTree = "<group>"; };
+		3E701125226E746E00958130 /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		7AFBFD090F19DA8365613EB5 /* Pods_Hackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE160ABF552ABC2F42744009 /* Pods-Hackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517BC75E09CC630B07F5AC16 /* Pods_Hackathon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				3E13E951226E5C1B005F1409 /* Hackathon */,
 				3E13E950226E5C1B005F1409 /* Products */,
+				635BB45FC4CB352301066B1E /* Pods */,
+				DC9D92070D17D6EF3F442C72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +70,34 @@
 			isa = PBXGroup;
 			children = (
 				3E13E952226E5C1B005F1409 /* AppDelegate.swift */,
-				3E13E954226E5C1C005F1409 /* ViewController.swift */,
+				3E701121226E66F500958130 /* Team.swift */,
+				3E701125226E746E00958130 /* Teams.swift */,
+				3E13E954226E5C1C005F1409 /* TeamListViewController.swift */,
+				3E701123226E698200958130 /* TeamDetailTableViewController.swift */,
 				3E13E956226E5C1C005F1409 /* Main.storyboard */,
 				3E13E959226E5C1C005F1409 /* Assets.xcassets */,
 				3E13E95B226E5C1C005F1409 /* LaunchScreen.storyboard */,
 				3E13E95E226E5C1C005F1409 /* Info.plist */,
+				3E70111F226E5EEE00958130 /* GoogleService-Info.plist */,
 			);
 			path = Hackathon;
+			sourceTree = "<group>";
+		};
+		635BB45FC4CB352301066B1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE160ABF552ABC2F42744009 /* Pods-Hackathon.debug.xcconfig */,
+				0589F1B30B752E7FBC913AAB /* Pods-Hackathon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC9D92070D17D6EF3F442C72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AFBFD090F19DA8365613EB5 /* Pods_Hackathon.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E13E961226E5C1C005F1409 /* Build configuration list for PBXNativeTarget "Hackathon" */;
 			buildPhases = (
+				C9179940DA7538AE2E1E4829 /* [CP] Check Pods Manifest.lock */,
 				3E13E94B226E5C1B005F1409 /* Sources */,
 				3E13E94C226E5C1B005F1409 /* Frameworks */,
 				3E13E94D226E5C1B005F1409 /* Resources */,
+				DBADAD385DD531732ED47CF8 /* [CP] Embed Pods Frameworks */,
+				4A6ACDE8030BFF664A53BA72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E13E95D226E5C1C005F1409 /* LaunchScreen.storyboard in Resources */,
+				3E701120226E5EEE00958130 /* GoogleService-Info.plist in Resources */,
 				3E13E95A226E5C1C005F1409 /* Assets.xcassets in Resources */,
 				3E13E958226E5C1C005F1409 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +170,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A6ACDE8030BFF664A53BA72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9179940DA7538AE2E1E4829 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hackathon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBADAD385DD531732ED47CF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E13E94B226E5C1B005F1409 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E13E955226E5C1C005F1409 /* ViewController.swift in Sources */,
+				3E701122226E66F500958130 /* Team.swift in Sources */,
+				3E701126226E746E00958130 /* Teams.swift in Sources */,
+				3E13E955226E5C1C005F1409 /* TeamListViewController.swift in Sources */,
 				3E13E953226E5C1B005F1409 /* AppDelegate.swift in Sources */,
+				3E701124226E698200958130 /* TeamDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +420,7 @@
 		};
 		3E13E962226E5C1C005F1409 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE160ABF552ABC2F42744009 /* Pods-Hackathon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +439,7 @@
 		};
 		3E13E963226E5C1C005F1409 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0589F1B30B752E7FBC913AAB /* Pods-Hackathon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
